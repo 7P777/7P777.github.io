@@ -50,3 +50,96 @@
         </footer>
     </body>
 </html>
+
+
+
+
+
+
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+#hero .profile-img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#hero h1 {
+    font-size: 4.5em;
+    color: #bfbfbf;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #ccddff;
+}
+
+section h3 {
+    font-size: 5em;
+    color: #ffffff;
+}
+
+header a {
+    text-decoration: none;
+    color:#664b00;
+}
+
+/* Add everything below here */
+
+#hero {
+    background-image: url('vape.jpg');
+}
+
+#about {
+    background-image: url('fmale.jpg');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(90,90,90,0.75),rgba(90,90,90,0.75)), url('smoky.jpg');
+}
