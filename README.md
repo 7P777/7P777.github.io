@@ -143,3 +143,5 @@ header a {
 #contact {
     background-image: linear-gradient(rgba(90,90,90,0.75),rgba(90,90,90,0.75)), url('smoky.jpg');
 }
+
+
